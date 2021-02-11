@@ -1,0 +1,46 @@
+body {
+  background-color: #008080;
+  color: #FFFFFF;
+}
+
+#TitleHeading {
+  font-family: 'Helvetica';
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.menu li {
+  float: left;
+  border-right: 1px solid #555;
+  background-color: #FFFFFF;
+}
+
+.menu li:last-child {
+  border-right: none;
+}
+
+.menu li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000080;
+}
+
+.menu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#active {
+  background-color: #000080;
+  padding: 8PX;
+  color: white;
+}
